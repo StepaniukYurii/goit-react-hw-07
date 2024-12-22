@@ -1,0 +1,19 @@
+.Form {
+  display: inline-block;
+  border: 2px solid #363636;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+.formInput {
+  width: 180px;
+}
+.formButton {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5px;
+}

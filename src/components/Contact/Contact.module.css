@@ -1,0 +1,29 @@
+.contact {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name,
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.deleteButton {
+  margin-left: 50px;
+  align-self: center;
+}
