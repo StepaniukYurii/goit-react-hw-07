@@ -25,11 +25,11 @@ const ContactList = () => {
 
   return (
     <ul className={styles.ContactList}>
-      {contacts.map(({ id, name, phone }) => (
+      {contacts.map(({ id, name, number }) => (
         <Contact
           key={id}
           name={name}
-          number={phone}
+          number={number}
           onDelete={() => dispatch(deleteContact(id))}
         />
       ))}
